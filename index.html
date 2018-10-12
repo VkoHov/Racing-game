@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raceing Game</title>
+    <script src="Car.js" ></script>
+    <script src="Track.js" ></script>
+    <script src="List.js" ></script>
+    <script src="helpers.js" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="winner-text"></p>
+    <header>
+        <h1 class="header-headline">Racing Game</h1>
+    </header>
+    <section class="chooseing-section">
+        <div class="cc-top-section">
+            <div class="cc-left-side width-of-sides">
+                <p class="cc-headline">Choose a car</p>
+                <div class="car-continer track-car-flex"></div>
+            </div>
+            <div class="cc-right-side width-of-sides">
+                <p class='cc-headline'>Choose a track</p>
+                <div class="track-continer track-car-flex"></div>
+            </div>
+        </div>
+        <div class='start-btn-box'>
+            <button class="start-btn" disabled> START</button>
+        </div>
+    </section>
+    <section class="racing-section">
+        <div class="racing-track-continer">
+            <div class="start-line line-flag">start</div>
+            <div class="track-box">
+                <div class="track-line"></div>
+            </div>
+            <div class="track-box">
+                <div class="track-line"></div>
+            </div>
+            <div class="track-box">
+                <div class="track-line"></div>
+            </div>
+            <div class='finish-line line-flag'>finish</div>
+        </div>
+    </section>
+    <script src='main.js'></script>
+</body>
+</html>
